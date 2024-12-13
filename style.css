@@ -1,12 +1,45 @@
 body {
-    background-color: rgb(224, 224, 224);
-    text-align: center;
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header h1 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 #header_img {
-    background-color: white;
+  background-color: white;
+  border-radius: 3px;
 }
+
+#header_img img {
+  margin-top: 30px;
+  height: 350px;
+  width: 600px;
+}
+
+#header_img p {
+  padding-bottom: 15px;
+}
+
+main h2 {
+  padding: 30px;
+}
+
+ul,
+main p {
+  margin: 0px 250px;
+}
+
+li {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+main p {
+  padding-bottom: 30px;
+}
+/*li:not(:last-child) {
+  margin-bottom: 50px;
+}*/
