@@ -1,7 +1,19 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: rgb(224, 224, 224);
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
 }
 
 header h1 {
@@ -15,8 +27,8 @@ header h1 {
 
 #header_img img {
   margin-top: 30px;
-  height: 350px;
-  width: 600px;
+  height: 600px;
+  width: 1000px;
 }
 
 #header_img p {
@@ -27,12 +39,16 @@ main h2 {
   padding: 30px;
 }
 
-ul,
-main p {
-  margin: 0px 250px;
+ul {
+  margin: 0px 680px;
 }
 
-li {
+main p {
+  margin: 0px 710px;
+}
+
+li,
+main p {
   text-align: left;
   padding-bottom: 30px;
 }
