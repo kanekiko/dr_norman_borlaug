@@ -33,7 +33,7 @@ h2 {
   width: 1000px;
 }
 
-#header_img p {
+#header_img figcaption {
   padding-bottom: 15px;
 }
 
@@ -56,11 +56,19 @@ ul li {
   margin-bottom: 20px;
 }
 
+ul li span {
+  font-weight: 550;
+}
+
 main p {
   max-width: 800px;
   margin: 20px 36%;
   text-align: justify;
   line-height: 1.6;
+}
+
+#quote {
+  padding-top: 30px;
 }
 
 footer h2 {
